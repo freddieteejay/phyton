@@ -1,4 +1,4 @@
-def wordlengths(word):
+def length(word):
 	return  len(word)
 
-print(wordlengths("semicolon"))
+#print(wordlengths("semicolon"))
