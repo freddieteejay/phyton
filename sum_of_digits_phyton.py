@@ -1,0 +1,12 @@
+user_input1 = int(input("Enter a number between 0 and 1000 : "))
+digit_one = user_input1 % 10
+
+user_input2 = user_input1 / 10
+digit_two = user_input2 % 10
+
+user_input3 = user_input2 / 10
+digit_three = user_input3 % 10
+
+sum_of_digits = digit_one + digit_two + digit_three - 1
+print("  ")
+print(f"The sum of digits in {user_input1} is : {sum_of_digits} ")
